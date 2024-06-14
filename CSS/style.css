@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.img-wrapper > img{
+    height: 300px;
+    width: 300px;
+}
+
+.topo {
+    background-image: url(./imagens/Título.webp);
+    background-color: rgba(255, 255, 255, 0.644);
+    background-position: center;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+main{
+    background-image: url(./imagens/fundo.avif);
+    background-position: center;
+    background-size: cover;
+}
+
+h2{
+    text-align: center;
+}
+
+h4{
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+
+.faccao{
+    display: flex;
+    align-items: center;
+    height: 30px;
+}
+
+span > img {
+    height: 20px;
+    width: 20px;
+}
+
+.logotipo-wrapper {
+    background-color: rgba(251, 251, 251, 0.434);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+}
+
+h5{
+    padding-left: 5px;
+    padding-bottom: 2px;
+    font-size: 13px;
+    color: rgb(0, 255, 255);
+}
+
+p > span {
+    color: rgb(77, 255, 0);
+}
+
+p {
+    margin-top: 10px;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding-bottom: 30px;
+    row-gap: 30px;
+}
+
+.info-personagem {
+    margin-top: 5px;
+}
+
+.card-personagem {
+    background-color: #080808aa;
+    padding: 10px;
+    font-size: 14px;
+    transition: 0.4s;
+}
+
+.card-personagem:hover {
+    transform: scale(1.1);
+}
